@@ -63,7 +63,7 @@ describe("enrichModel — capability detection via /api/show.capabilities", () =
 				modified_at: "",
 				size: 0,
 				digest: "x",
-				details: { parameter_size: "", families: [], format: "", family: "", parameter_size_str: "", quantization_level: "" },
+				details: { parameter_size: "", families: [], format: "", family: "", parent_model: "", quantization_level: "" },
 			}] }),
 			showModel: async () => ({
 				modelfile: "",
@@ -90,7 +90,7 @@ describe("enrichModel — capability detection via /api/show.capabilities", () =
 				modified_at: "",
 				size: 0,
 				digest: "x",
-				details: { parameter_size: "7B", families: [], format: "", family: "", parameter_size_str: "", quantization_level: "" },
+				details: { parameter_size: "7B", families: [], format: "", family: "", parent_model: "", quantization_level: "" },
 			}] }),
 			showModel: async () => ({
 				modelfile: "",
@@ -114,7 +114,7 @@ describe("enrichModel — capability detection via /api/show.capabilities", () =
 				modified_at: "",
 				size: 0,
 				digest: "x",
-				details: { parameter_size: "", families: [], format: "", family: "", parameter_size_str: "", quantization_level: "" },
+				details: { parameter_size: "", families: [], format: "", family: "", parent_model: "", quantization_level: "" },
 			}] }),
 			showModel: async () => ({
 				modelfile: "",
